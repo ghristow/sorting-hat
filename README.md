@@ -2,4 +2,6 @@
 This is a simple sorting hat program that tells you which Hogwarts house you belong to.
 
 ## Usage
-Clone the repo and then ```go run``` or ```go build``` inside the folder.
+Clone the repo and:
+- ```go run main.go``` inside the folder
+- or ```go build``` and execute the binary
