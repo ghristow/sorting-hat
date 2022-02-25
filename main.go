@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"math/rand"
+	"os"
 	"os/user"
 	"time"
 )
@@ -29,6 +30,7 @@ func main() {
 	user, err := user.Current()
 	if err != nil {
 		fmt.Println("I'm sorry, I cant decide.")
+		os.Exit(1)
 	}
 
 	var sum int64
