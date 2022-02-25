@@ -53,7 +53,7 @@ func typeAsBot(input string) {
 	rand.Seed(time.Now().UnixNano())
 
 	for _, l := range input {
-		time.Sleep(botDelay(10, 5, 15))
+		time.Sleep(botDelay(10, 7, 15))
 		fmt.Printf("%s", string(l))
 	}
 	fmt.Println()
